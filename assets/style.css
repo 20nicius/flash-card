@@ -1,11 +1,23 @@
 body {
-    background-color:maroon;
-    font-family: Bai Jamjuree;   
+    background-color: maroon;
+    font-family: Bai Jamjuree;
+} 
+
+#container {
+    display: flex;
 }
 
-footer{
-    background-color: chartreuse;
-    color: blueviolet;
+.cartao {
+    margin: 1rem 1rem;
+    background-color: chocolate;
+    height: 20rem;
+    flex-grow: 1;
+    flex-basis: calc(33% - 6rem);
+}
+
+footer {
+    background-color:chartreuse;
+    color:blueviolet;
     position: fixed;
     bottom: 0;
     width: 100%;
